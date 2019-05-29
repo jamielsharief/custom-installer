@@ -1,7 +1,7 @@
 {
     "name": "jamielsharief/custom-installer",
     "description": "A custom installer for composer packages",
-    "type": "composer-installer",
+    "type": "composer-plugin",
     "license": "MIT",
     "require": {
         "composer-plugin-api": "^1.0"
@@ -20,6 +20,6 @@
         }
     },
     "extra": {
-        "class": "CustomInstaller\\Composer\\CustomInstaller"
+        "class": "CustomInstaller\\Composer\\CustomInstallerPlugin"
     }
 }
