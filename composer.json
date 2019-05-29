@@ -20,6 +20,6 @@
         }
     },
     "extra": {
-        "class": "CustomInstaller\\Composer\\PluginInstaller"
+        "class": "CustomInstaller\\Composer\\CustomInstaller"
     }
 }
